@@ -1,0 +1,145 @@
+@media screen and (min-width: 768px) {
+  .wrapContent {
+    max-width: 1440px;
+    min-width: 768px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .title {
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    text-align: left;
+  }
+  .content {
+    height: 300px;
+    background-color: antiquewhite;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .timer {
+    display: flex;
+    flex-direction: row;
+  }
+  .h {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    text-align: center;
+    margin-right: 5px;
+    color: black;
+  }
+  .unit {
+    color: black;
+    margin-right: 5px;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee, #fbc2eb);
+    flex: 1;
+    height: 100%;
+    align-items: flex-end;
+    justify-content: center;
+    padding-right: 40px;
+  }
+  .bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 200px;
+    margin-top: 20px;
+    width: 80%;
+    background-color: aliceblue;
+  }
+  .content1 {
+    background-image: url(../../public/bg.png);
+    background-position-x: left;
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+  }
+  .spanContent {
+    display: inline-block;
+    width: 80%;
+    height: 50px;
+    border: 1px solid black;
+    background-color: black;
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapContent {
+    max-width: 768px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 80vh;
+  }
+  .title {
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    text-align: left;
+    height: 10vh;
+  }
+  .content {
+    height: calc(70vh - 40px);
+    background-color: antiquewhite;
+    margin-top: 20px;
+  }
+  .timer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+  }
+  .h {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    text-align: center;
+    margin-right: 5px;
+    color: black;
+  }
+  .unit {
+    color: black;
+    margin-right: 5px;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    height: calc(40% - 80px);
+    padding: 40px;
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee, #fbc2eb);
+  }
+  .bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    margin-top: 20px;
+  }
+  .content1 {
+    background-image: url('../../public/bg1.png');
+    width: 100%;
+    height: 60%;
+  }
+  .spanContent {
+    display: inline-block;
+    width: 80%;
+    height: 50px;
+    border: 1px solid black;
+    background-color: black;
+    color: #fff;
+    line-height: 50px;
+  }
+}
